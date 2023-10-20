@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-todo...
-=======
-todo...
->>>>>>> bcbfab3e32b65d62e5a995ab164a1917bef9de48
+Blog created using NextJs and Tailwind, along with Supabase. (Incomplete but functional at least.)

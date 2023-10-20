@@ -86,5 +86,6 @@ export default function Posts(){
             <p>Page {currentPage}</p>
             <button className="bg-black rounded-full px-5 py-2 text-xl" onClick={() => nextPage()}>Next</button>
         </div>
+        <button className="md:hidden mt-10 m-auto w-[200px] px-7 h-12 bg-black rounded-full text-sm">Become a Supporter!</button>
     </div>
 }

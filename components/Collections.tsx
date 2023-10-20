@@ -6,7 +6,7 @@ export default function Collections(){
     const collections = ["Tech", "Science"]
     const s = useContext(shared)
 
-    return <div className="px-5 md:px-20 md:mt-36 mb-20">
+    return <div className="min-h-[500px] px-5 md:px-20 md:mt-36 mb-20">
         <h1 className="text-3xl font-black mb-5">Collections</h1>
         <section className="collections grid grid-cols-1 min-h-[400px] md:grid-cols-2 w-full gap-10">
             {collections.map((collection) => {

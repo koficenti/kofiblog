@@ -43,5 +43,5 @@ export default function Article(){
         <div className="w-full min-h-[100px] md:min-h-[300px] bg-custom-gray mb-5 rounded-md overflow-hidden relative">{image(article)}</div>
         <h1 className="text-4xl font-black mb-5">{article.title}</h1>
         <p className="text-xl">{article.description}</p>
-    </div> : <div id="article_reader" className={`px-20 pt-10 absolute top-[100px] left-0 bg-custom-black opacity-0 pointer-events-none w-full overflow-hidden`}></div>
+    </div> : <div id="article_reader" className={`px-5 md:px-20 pt-10 absolute top-0 md:top-[100px] left-0 bg-custom-black opacity-0 pointer-events-none w-full overflow-hidden`}></div>
 }

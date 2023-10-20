@@ -34,5 +34,6 @@ body{
   transition: scale 200ms;
 }
 .all-posts{
+  min-height: 840px;
   grid-template-rows: min-content min-content 1fr;
 }

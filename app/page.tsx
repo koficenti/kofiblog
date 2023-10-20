@@ -10,8 +10,8 @@ export default function Home() {
   return <State>
     <Header/>
     <Posts/>
-    <Article/>
     <Collections/>
     <Footer/>
+    <Article/>
   </State>
 }

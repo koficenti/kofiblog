@@ -11,8 +11,8 @@ export default function Collections(){
         <section className="collections grid grid-cols-1 min-h-[400px] md:grid-cols-2 w-full gap-10">
             {collections.map((collection) => {
                 return <div className="md:px-10 md:aspect-video bg-custom-gray rounded-3xl relative">
-                    <div className="absolute md:my-10 rounded-3xl w-full h-full md:w-[100%] md:h-[100%] bg-custom-light-gray md:relative">
-                        <Image className="md:absolute z-[-10] rounded-3xl w-full h-full top-0 left-0" alt="" width={1920} height={500} src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFic3RyYWN0fGVufDB8fDB8fHww"/>
+                    <div className="static md:my-10 rounded-3xl w-full h-full md:w-[100%] md:h-[100%] bg-custom-light-gray md:relative">
+                        <Image className="md:absolute rounded-3xl w-full h-full top-0 left-0" alt="" width={1920} height={500} src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGFic3RyYWN0fGVufDB8fDB8fHww"/>
                     </div>
                     <div className="absolute md:static flex gap-5 place-items-center mt-10 md:mt-5 w-full pb-5">
                         <div className="rounded-full md:w-[95px] h-[95px] bg-custom-light-gray relative">
